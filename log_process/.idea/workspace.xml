@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="291922e9-d51f-4a98-95a3-09ce8df991d1" name="Default Changelist" comment="" />
+    <list default="true" id="291922e9-d51f-4a98-95a3-09ce8df991d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../gin-router/gin-router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gin-router/ttt/att.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go-websocket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../go-websocket/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +18,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/log_process.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="187" column="9" lean-forward="true" selection-start-line="187" selection-start-column="9" selection-end-line="187" selection-end-column="9" />
+            <state relative-caret-position="407">
+              <caret line="114" column="1" lean-forward="true" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
               <folding>
-                <element signature="e#14#170#0" expanded="true" />
-                <element signature="n#!!block;n#Write#0" />
+                <element signature="e#14#199#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,6 +40,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ParseInLocation</find>
+      <find>client</find>
+      <find>influxDsn</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -60,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -76,6 +82,10 @@
             <path>
               <item name="log_process" type="b2602c69:ProjectViewProjectNode" />
               <item name="log_process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="log_process" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -94,10 +104,10 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,7 +140,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15379113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1602289" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -170,8 +180,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mock_data.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        <state relative-caret-position="450">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
             <element signature="e#14#65#0" expanded="true" />
           </folding>
@@ -180,11 +190,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/log_process.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="187" column="9" lean-forward="true" selection-start-line="187" selection-start-column="9" selection-end-line="187" selection-end-column="9" />
+        <state relative-caret-position="407">
+          <caret line="114" column="1" lean-forward="true" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
           <folding>
-            <element signature="e#14#170#0" expanded="true" />
-            <element signature="n#!!block;n#Write#0" />
+            <element signature="e#14#199#0" expanded="true" />
           </folding>
         </state>
       </provider>
